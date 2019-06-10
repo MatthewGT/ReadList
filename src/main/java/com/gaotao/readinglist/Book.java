@@ -38,7 +38,7 @@ public class Book {
         return isbn;
     }
 
-    public void setIsbn(){
+    public void setIsbn(String isbn){
         this.isbn = isbn;
     }
 
@@ -53,7 +53,7 @@ public class Book {
         return description;
     }
 
-    public void setDescriptione(String description){
+    public void setDescription(String description){
         this.description = description;
     }
     public String getTitle(){
